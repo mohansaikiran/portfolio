@@ -1,0 +1,300 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Mohan Bonu Portfolio
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Mohan Bonu
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Mohan 
+                        span.text-primary Bonu
+                    .subheading.mb-1
+                        | 58 Gillard Street · Burwood, 3125 · (61) 433974197 · 
+                        a(href='mailto:kiranms20@gmail.com') kiranms20@gmail.com
+                    .subheading.mb-5
+                        | Full Stack Developer · Cloud Computing · Cyber Security · Data Analytics · 
+                    p.lead.mb-5
+                        | I'm a software engineer with over three years of professional experience in full-stack development, cloud computing, and mobile application development. I recently completed my Master of Information Technology (Professional) from Deakin University, majoring in Cybersecurity and Data Science, graduating with a WAM of 83.08
+                    p.lead.mb-5
+                        | My technical toolbox includes JavaScript, ReactJS, NodeJS, Spring Boot, Java, AWS, Docker, and Kubernetes, and I enjoy building scalable systems that solve real-world problems. Over the years, I’ve worked on everything from mobile interfaces to REST APIs to cloud-native applications. Whether it’s optimising performance, automating deployments, or improving user experience, I aim to build reliable and efficient software.
+                    p.lead.mb-5
+                        | I currently hold a Temporary Graduate Visa (subclass 485), allowing me to work full-time in Australia. Beyond coding, I enjoy collaborating with cross-functional teams, mentoring peers, and diving into new technologies. I'm actively looking for opportunities to contribute, grow, and make meaningful impact as a developer.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/mohansaikiran/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/mohansaikiran')
+                            i.fab.fa-github
+                        //- a.social-icon(href='#!')
+                        //-     i.fab.fa-twitter
+                        a.social-icon(href='https://www.facebook.com/mohansaikiranb/')
+                            i.fab.fa-facebook-f
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Engineer 2
+                            .subheading.mb-3 Gupshup Technologies Pvt Ltd
+                            p
+                                | Designed and optimized RESTful APIs and front-end interfaces, improving response times by 30% and reducing page load latency by 25%. Played a key role in building scalable, production-grade web applications using ReactJS, NodeJS, and MongoDB. Led CI/CD automation with Jenkins and Docker, cutting deployment time by 40%. Also conducted code audits to ensure compliance with security and quality standards.
+
+                        .flex-shrink-0
+                            span.text-primary Jan 2023 - Oct 2023
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 UI Mobile Developer
+                            .subheading.mb-3 Onedirect
+                            p
+                                | Built responsive and modular web applications using Angular, ReactJS, Redux, and SASS. Closely collaborated with designers and backend teams to implement feature-rich interfaces. Handled REST API integrations and utilized Redux DevTools for efficient state management. Contributed in an Agile development environment with regular code reviews, version control using Git, and testing using Postman and SQL Workbench.
+
+                        .flex-shrink-0
+                            span.text-primary Oct 2020 - Dec 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 UI Developer Intern
+                            .subheading.mb-3 Onedirect
+                            p
+                                | Developed data-driven frontends that captured and visualized YouTube channel statistics using Chart.js and Google Charts. Fetched real-time content using YouTube Data APIs and stored it for analytical processing. Built UIs with Angular and Redux, and implemented RESTful service integrations to sync frontend with backend.
+                        .flex-shrink-0
+                            span.text-primary Feb 2020 - Sept 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Android App Developer Intern
+                            .subheading.mb-3 Bharat Electronics Limited
+                            p
+                                | Created a mobile app to visualize radar target data on Google Maps using Flutter and Firebase. The app processed and displayed coordinates and trajectories in real-time, facilitating effective field tracking. Employed Google Maps API, RESTful services, and range-bear analysis to deliver a location-intelligent tool with a single shared codebase for Android and iOS.
+
+                        .flex-shrink-0
+                            span.text-primary Jun 2019 - Jul 2019
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Deakin University
+                            .subheading.mb-3 Masters of Information Technology (Professional)
+                            div Specialisation - Cyber Security and Data Science
+                            p WAM: 83.08
+                        .flex-shrink-0
+                            span.text-primary Nov 2023 - Jun 2025
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Nitte Meenakshi Institute of Technology
+                            .subheading.mb-3 Bachelor of Engineering
+                            div Computer Science
+                            p CGPA: 9.42
+                        .flex-shrink-0
+                            span.text-primary Aug 2016 - Jun 2020
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-angular
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-bootstrap
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-sass
+                        li.list-inline-item
+                            i.fab.fa-less
+                        li.list-inline-item
+                            i.fab.fa-java
+                        li.list-inline-item
+                            i.fab.fa-python
+                        li.list-inline-item
+                            i.fab.fa-aws
+                        li.list-inline-item
+                            i.fab.fa-docker
+                        li.list-inline-item
+                            i.fab.fa-git
+                        li.list-inline-item
+                            i.fab.fa-npm
+                        li.list-inline-item
+                            i.fab.fa-linux
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Full-Stack Web & Mobile Development
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | RESTful API Design & Integration
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Scalable Microservices with Spring Boot & Node.js
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cloud Infrastructure with AWS, GCP & Terraform
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Containerization & Orchestration using Docker & Kubernetes
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | CI/CD Pipelines with Jenkins, GitHub Actions
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development, Peer Reviews & Version Control with Git
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | When I’m not immersed in code, you’ll likely find me diving into a competitive match on my PlayStation - I’m an avid gamer and big fan of the esports scene. I love how gaming keeps me sharp, reactive, and engaged, just like a fast-paced dev sprint.
+
+                    p
+                        | I’m also someone who enjoys the outdoors - trekking, exploring nature, or just going off-grid for a bit. Lately, I’ve picked up swimming and have been enjoying the mix of fitness and calm it brings. I regularly play badminton too - it’s one of my favourite ways to stay active and unwind.
+
+                    p 
+                        | Music is a constant in my life - whether I’m coding, cooking, or just relaxing, there’s always a playlist running in the background. Speaking of cooking, living as an international student in Australia pushed me to explore the kitchen more, and now I genuinely enjoy trying out new dishes and experimenting with flavours.
+                    
+                    p 
+                        | These interests keep me balanced and creative, and I often find that they bring a fresh perspective to my work as a developer.
+
+
+            hr.m-0
+
+            // Awards
+            section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5 Awards & Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Best Employee of the Month - OneDirect (For development contributions and performance)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Certified in Programming in JAVA - NPTEL
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Certified in Web Technologies - NMIT
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Certified in Internet of Things (IoT) - ThingWorx
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Selected for Centre of Excellence in Aerospace and IoT - NMIT
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - Coding & Debugging Challenge
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 3
+                            sup rd 
+                            | Place - CISCO Hackathon
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            |  Active participation in several university-level Hackathons
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Published and Presented IEEE Research Paper: 
+                            a(href="https://ieeexplore.ieee.org/document/9243573" target="_blank") Blockchain-based Medical Records Monitoring System - I-SMAC 2020
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Attended Virtual Conference on Deep Learning - ResBaz Sydney, 2021
+                        
+                        
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
